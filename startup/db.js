@@ -16,3 +16,4 @@ module.exports = function () {
     // now the unhandeled exception will be dealt by winston
 };
 
+// mongodb+srv://psr:#qwertypsr299792458@cluster0.tpoy4.mongodb.net/vidly?retryWrites=true&w=majority
