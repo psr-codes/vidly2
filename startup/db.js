@@ -3,8 +3,10 @@ const mongoose = require('mongoose');
 const config = require('config');
 
 module.exports = function () {
-    const db = config.get('db');
-
+    let db = config.get('db');
+    db = "mongodb+srv://psr:4567@cluster0.tpoy4.mongodb.net/vidly";
+    
+    console.log(db);
     mongoose.connect(db, { 
     useUnifiedTopology: true,
     useNewUrlParser: true,
@@ -16,4 +18,4 @@ module.exports = function () {
     // now the unhandeled exception will be dealt by winston
 };
 
-// mongodb+srv://psr:#qwertypsr299792458@cluster0.tpoy4.mongodb.net/vidly?retryWrites=true&w=majority
+

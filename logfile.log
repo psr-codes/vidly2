@@ -1427,3 +1427,13 @@
 {"message":"Connected to mongodb://localhost/vidly...","level":"info"}
 {"message":"listening on port 80 ...","level":"info"}
 {"message":"Connected to mongodb://localhost/vidly...","level":"info"}
+{"message":"listening on port 80 ...","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly...","level":"info"}
+{"message":"listening on port 80 ...","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly...","level":"info"}
+{"message":"listening on port 80 ...","level":"info"}
+{"message":"Connected to mongodb+srv://psr:4567@cluster0.tpoy4.mongodb.net/vidly...","level":"info"}
+{"message":"listening on port 80 ...","level":"info"}
+{"message":"Connected to mongodb+srv://psr:4567@cluster0.tpoy4.mongodb.net/vidly...","level":"info"}
+{"message":"listening on port 80 ...","level":"info"}
+{"message":"Connected to mongodb+srv://psr:4567@cluster0.tpoy4.mongodb.net/vidly...","level":"info"}
