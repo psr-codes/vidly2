@@ -4,7 +4,7 @@ const config = require('config');
 
 module.exports = function () {
     let db = config.get('db');
-    db = "mongodb+srv://psr:4567@cluster0.tpoy4.mongodb.net/vidly";
+    db = 'mongodb+srv://prakash:4567@cluster0.1tfgk.mongodb.net/vidly2?retryWrites=true&w=majority';
     
     console.log(db);
     mongoose.connect(db, { 

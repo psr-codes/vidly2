@@ -1,5 +1,5 @@
 const winston = require('winston');
-require('winston-mongodb');
+// require('winston-mongodb');
 require('express-async-errors');
 
 module.exports = function () {
@@ -27,12 +27,12 @@ module.exports = function () {
     format: winston.format.simple()
   })
 );
-  winston.add(
-    new winston.transports.MongoDB({
-      db: "mongodb://localhost/vidly",
-      level: "info",
-    })
-  );
+  // winston.add(
+  //   new winston.transports.MongoDB({
+  //     db: "mongodb://localhost/vidly",
+  //     level: "info",
+  //   })
+  // );
 
   // throw new Error('Something failed during startup...');
   // const p = Promise.reject(new Error("Failed miserabely"));

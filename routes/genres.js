@@ -45,7 +45,6 @@ router.delete("/:id", [auth, admin], async (req, res) => {
     return res.status(404).send("the genre with the given id does not exists");
 
   res.send(genre);
-  console.log(err.message);
   res.status(404).send("the genre with given id not found");
 });
 
