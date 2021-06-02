@@ -6,7 +6,7 @@ module.exports = function () {
   // 1. handling uncaught exception -- works with only synchronous code
   process.on("uncaughtException", (ex) => {
     new winston.transports.Console({ colorize: true, prettyPrint: true});
-    console.log("GOT AN UNCAUGHT EXCEPTION");
+    console.log("GOT AN UNCAUGHT EXCEPTION...");
     winston.error(ex.message, ex);
     process.exit(1);
   });
